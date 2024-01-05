@@ -1,0 +1,197 @@
+body
+{
+    margin: 0;
+  padding: 0;
+}
+
+header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1703769605311-a8a837521cbb?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 
+{
+    color: rgb(218, 218, 218);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.news 
+{
+    background-color: white;
+    padding: 50px 0 32px;
+}
+
+article 
+{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid gray;
+
+}
+
+p:nth-child(even) 
+{
+    background-color: bisque;
+}
+
+.new::before 
+{
+   content: "new";
+   color: red; 
+
+}
+
+article a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover 
+{
+    color: aquamarine;
+}
+
+article h2 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.houres 
+{
+    font-weight: bolder;
+    color: blueviolet;
+
+}
+
+.many-times 
+{
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.color
+{
+    font-weight: bolder;
+    color: red;
+}
+
+.green 
+{
+    font-weight: bolder;
+    color: green;
+}
+
+.white 
+{
+    font-weight: bolder;
+    color: brown;
+}
+
+.bright 
+{
+    font-weight: bolder;
+    color: palevioletred;
+}
+
+.anime 
+{
+    font-weight: bolder;
+    color: rgb(123, 18, 18);
+}
+
+.santa 
+{
+    font-style: italic;
+    color: rgb(169, 25, 130);
+}
+
+.name 
+{
+    font-weight: bolder;
+    color: rgb(79, 154, 129);
+}
+
+.lovely 
+{
+    font-weight: bolder;
+    color: orange;
+}
+
+.brown 
+{
+    font-weight: bolder;
+    color: black;
+
+}
+
+.stop 
+{
+    font-style: italic;
+    color: rgb(255, 83, 83);
+
+}
+
+.article-meta 
+{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.cat 
+{
+    font-style: italic;
+    color: rgb(94, 94, 255);
+}
+
+.many 
+{
+    text-transform: uppercase;
+    color: rgb(45, 26, 26);
+}
+
+article img 
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer
+{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.links
+{
+    margin-bottom: 50px;
+}
+
+.links > a 
+{
+   color: rgb(70, 70, 70);
+   padding: 0 25px;
+   font-size: 13px;
+   font-weight: 600;
+   letter-spacing: .lrem;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.copyright 
+{
+    color: rgb(108, 163, 108);
+    font-family: 'Times New Roman', Times, serif;
+}
